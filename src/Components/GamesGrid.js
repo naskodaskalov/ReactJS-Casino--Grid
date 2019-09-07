@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import * as Bootstrap from 'react-bootstrap'
 
+import './GamesGrid.css'
+
 export default class GamesGrid extends Component {
   constructor (props) {
     super(props)

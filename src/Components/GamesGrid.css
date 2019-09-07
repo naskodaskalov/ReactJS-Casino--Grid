@@ -1,0 +1,94 @@
+
+h1 {
+  text-transform: capitalize;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+.categories-container {
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 0;
+  background-color: #000;
+  color: white;
+  text-align: center;
+}
+
+hr {
+  border-color: #ccc;
+}
+
+.primary-game {
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.primary-game:hover h3 {
+  color: #ffa500;
+}
+
+.primary-game:hover img,
+.game:hover img {
+  box-shadow: 0px 0px 30px -5px rgba(255,165,0,1);
+}
+
+.primary-game > div {
+  text-align: center;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.primary-game > div > img {
+  width: 55%;
+  border-radius: 50%;
+}
+
+.primary-game > div > h3 {
+  margin-bottom: 0;
+  margin-top: 20px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.game {
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.game > img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.game > h3 {
+  font-size: 12px;
+  color: #fff;
+  margin-top:10px;
+}
+
+.game:hover > h3 {
+  color: #ffa500;
+}
+
+.secondary-games-container {
+  justify-content: center;
+}
+
+.poweredby {
+  color: #ccc;
+  text-align: right;
+}
+
+.footer > blockquote {
+  margin: 10px auto;
+}
+
+.primary-game:hover,
+.game:hover {
+  cursor: pointer;
+}

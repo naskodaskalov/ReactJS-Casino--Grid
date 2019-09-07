@@ -62,7 +62,7 @@ export default class CategoriesContainer extends Component {
       )
     } else {
       return (
-        <div>asdasd</div>
+        <div>No games</div>
       )
     }
   }
