@@ -92,3 +92,16 @@ hr {
 .game:hover {
   cursor: pointer;
 }
+
+
+@media (max-width: 725px) {
+  .primary-game > div > img,
+  .game > img {
+    width: 80%;
+  }
+
+  .primary-game > div> h3,
+  .game > h3 {
+    font-size: 24px;
+  }
+}

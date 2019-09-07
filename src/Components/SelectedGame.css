@@ -45,3 +45,18 @@
   text-transform: uppercase;
   border:0;
 }
+
+@media (max-width: 725px) {
+  .game-intro {
+    order: 2;
+  }
+
+  .game-details {
+    order: 1;
+  }
+
+  .game-image {
+    width: 80%;
+    margin: auto;
+  }
+}
