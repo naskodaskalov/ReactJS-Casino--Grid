@@ -11,7 +11,7 @@ function App () {
         <Routes />
         <Bootstrap.Row className='footer'>
           <blockquote className='blockquote'>
-            <footer className='blockquote-footer'>Powered by <cite title='Nasko Daskalov'>Nasko Daskalov</cite> for <cite title='SBTech'>SBTech</cite></footer>
+            <footer className='blockquote-footer'>Powered by <cite title='Nasko Daskalov'>Nasko Daskalov</cite> for <cite title='SBTech'>SBTech</cite>. More details @ <a href='https://github.com/naskodaskalov/ReactJS-Casino--Grid' target='_blank'>github.com/naskodaskalov</a></footer>
           </blockquote>
         </Bootstrap.Row>
       </Bootstrap.Container>
